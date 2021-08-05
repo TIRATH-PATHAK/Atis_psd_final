@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    <!-- <script src="./js/index.js"></script> -->
+    <title>Atis</title>
+</head>
+<body>
+
+    <!-- Header Section  -->    
+
+        <header class="head">
+            <div class="container">
+             <div class="logo">
+                <div class="nav_logo">
+                    <img src="./assets/images/Atis.png" alt="Atis Logo">
+                </div>        
+
+                <div class="nav_logo">
+                    <ul>
+                      <li><a href="">Flights</a></li>
+                        <li><a href="">Hotel</a></li>
+                        <li><a href="">Explore</a></li>
+                        <li><a href="">Restaurants</a></li>
+                        <li><a href="">Things to do</a></li>
+                        <li><a href="">About Greece</a></li>
+                        <li><a href="https://www.google.com" target="_blank"><button type="button"> Become a Host</button></a></li>
+                    </ul>
+                </div>
+                
+                <div class="head_title">  
+                    <img src="./assets/images/greece.png" alt="Greece">
+                    <div class="subTitle">
+                        <p>Welcome to Heaven</p>
+                    </div>
+                        <div class="head_offer">
+                         <a href="/"><button type="button"><p>Check offer</p></button></a>   
+                        </div>
+                    
+                </div>
+                   
+            </div>
+        </div>
+              
+        </header>
+
+        <!-- Main Section -->
+
+        
+            <section class="main">
+                <div class="container">
+                
+                    
+                    <div class="searchBottom">
+                        <ul>
+                            <li>
+                                <span id="city"><img src="./assets/images/city.png" alt="City">
+                              <input type="text" name="city" id="city" placeholder="City" > </span>  
+                            </li>
+                        <span id="move">
+                            <li>
+                             <img src="./assets/images/checkin.png" alt="Checkin">
+                             <input placeholder="Check In" class="Check_in" type="text" onfocus="(this.type='date')" id="date">
+                               
+                            </li>
+                            <li>
+                              
+                              <img src="./assets/images/checkout.png" alt="checkout">
+                              <input placeholder="Check Out" class="Check_out" type="text" onfocus="(this.type='date')" id="date">
+                            </li>
+                            <li>
+                               <img src="./assets/images/home.png" alt="Rooms">
+                                <input type="text" name="rooms" id="rooms" placeholder="Rooms">
+                            </li>
+                            <li>
+                                <img src="./assets/images/people.png" alt="People">
+                                <input type="number" name="adults" id="adults" placeholder="Adults">
+                            </li>
+                            <li>
+                                <img src="./assets/images/children.png" alt="Children">
+                              
+                                <input type="number" name="children" id="children" placeholder="Children">
+                            </li>
+                            <li id="star">
+                                <img src="./assets/images/star.png" alt="City">
+                                <input type="text" name="stars" id="stars" placeholder="Stars">
+                            </li>
+                           
+                            <span class="search">
+                          <li><a href="#"><img src="./assets/images/search.png" alt="Search"></a></li>
+                            </span>  
+
+                        </span>
+                        </ul>
+                        <div class="color"></div>
+                    </div>
+                </img>
+            </div>
+            </section>
+
+
+            <!-- Popular Places Section -->
+
+            <section class="popular">
+                <div class="container">
+                    <div class="popular_title">
+                        <h3>Most Popular Places</h3>
+                        <div class="MainFirst clearfix">
+                            <div class="first_imgs"> 
+                               
+                                    <div class="first_top">
+                                       
+                                        <div class="h"><h2>Thessaloniki</h2></div>   
+                                      
+                                        <div class="img_places"><img src="./assets/images/Thessaloniki.png" alt="Thessaloniki">
+                                            <!-- <svg>
+                                                <filter id="blue-wash">
+                                                <feColorMatrix type="matrix" values="0.1 0.1 0.1 0 0   0.3 0.3 0.3 0 0  1 1 1 0 0  0 0 0 1 0"/>
+                                                </filter>
+                                            </svg> -->
+                                        </div>     
+                                    </div>
+                                    <div class="first_bottom">
+                                        <div class="h"><h2>Halkidiki</h2></div>
+                                        <div class="img_places"><img src="./assets/images/Halkidiki.png" alt="Halkidiki">
+                                            <!-- <svg>
+                                                <filter id="blue-wash">
+                                                <feColorMatrix type="matrix" values="0.1 0.1 0.1 0 0   0.3 0.3 0.3 0 0  1 1 1 0 0  0 0 0 1 0"/>
+                                                </filter>
+                                            </svg> -->
+                                        </div>
+                                    </div>
+                               
+                            </div>
+                            <div class="second_imgs">
+                               
+                               <div class="txt">
+                                <h1>Crete</h1>
+                                   <div class="t"><span id="aaa">11 Flights</span></div>
+                                   <div class="t"><span id="aaa">48 Restaurants</span></div>
+                                   <div class="t"><span id="aaa">32 Hotels</span></div>
+                               </div>
+                                <img src="./assets/images/Crete.png" alt="Crete">
+                            </div>
+                                
+                            <div class="third_imgs clearfix">
+                                <div class="last_top">
+                                   <h2>Athens</h2>  
+                                  <img src="./assets/images/Athens.png" alt="Athens">
+                                  <!-- <svg>
+                                    <filter id="blue-wash">
+                                    <feColorMatrix type="matrix" values="0.1 0.1 0.1 0 0   0.3 0.3 0.3 0 0  1 1 1 0 0  0 0 0 1 0"/>
+                                    </filter>
+                                </svg>
+                                 -->
+                               </div>    
+
+                                <div class="last_bottom">
+                                   <h2>Mykonos</h2>
+                                   <img src="./assets/images/mykonos.png" alt="mykonos">
+                                   <!-- <svg>
+                                    <filter id="blue-wash">
+                                    <feColorMatrix type="matrix" values="0.1 0.1 0.1 0 0   0.3 0.3 0.3 0 0  1 1 1 0 0  0 0 0 1 0"/>
+                                    </filter>
+                                </svg> -->
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="MainSecond clearfix">
+                            <div class="left_right">
+                                <div class="lr1">
+                                    <h2>Meteora</h2>
+                                    <img src="./assets/images/Metora.png" alt="Metora">
+                                </div>
+                            </div>
+
+                            <div class="left_right">
+                                <div class="lr2">
+                                    <h2>Myrtos Beach</h2>
+                                    <img src="./assets/images/myrtos_beach.png" alt="myrtos_beach">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Popular Hotel Section -->
+
+            <section class="hotel">
+                <div class="container">
+                    <h3>Most Popular Hotels</h3>
+                    <div class="topTags clearfix">
+                        <div class="tops">
+                            <img src="./assets/images/card.png" alt="Card">
+                                <div class="text_top">
+                                <div class="name_doller_main">
+                                    <div class="name_doller_sub">
+                                        <p>El Greco</p>
+                                    </div>
+
+                                    <div class="name_doller_sub1">
+                                    <p class='doller'>225$
+                                        
+                                    </p>
+
+                                    </div>
+                                </div>
+                                    <div class="rating">
+                                        <div class="rating_star">
+                                            <img src="./assets/images/4_star.png" alt="Rating">
+                                        </div>
+                                        <div class="rating_star1">
+                                            <p> 10 days</p>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="btn">
+                                    <button type="button">
+                                        View More
+                                    </button>
+                                </div>
+                            </img>
+                        </div>
+
+                        <div class="tops">
+                            <img src="./assets/images/card.png" alt="Card">
+                                <div class="text_top">
+                                    <div class="name_doller_main">
+                                        <div class="name_doller_sub">
+                                            <p>Panorama</p>
+    
+                                        </div>
+    
+                                        <div class="name_doller_sub1">
+                                        <p class='doller'>125$</p>
+    
+                                    </div>
+                                    </div>  
+                                    <div class="rating">
+                                        <div class="rating_star">
+                                            <img src="./assets/images/2_star.png" alt="Rating">
+                                        </div>
+                                        <div class="rating_star1">
+                                        <p> 10 days</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="btn">
+                                    <button type="button">
+                                        View More
+                                    </button>
+                                </div>
+                            </img>
+                        </div>
+
+                        <div class="tops">
+                            <img src="./assets/images/card.png" alt="Card">
+                                <div class="text_top">
+                                <div class="name_doller_main">
+                                    <div class="name_doller_sub">
+                                        <p>Cyprotel Corfu</p>
+
+                                    </div>
+                                    <div class="name_doller_sub1">
+                                    <p class='doller'>95$</p>
+
+                                    </div>
+                                </div>
+
+                                    <div class="rating">
+                                        <div class="rating_star">
+                                            <img src="./assets/images/3_star.png" alt="Rating">
+                                        </div>
+                                        <div class="rating_star1">
+                                        <p> 10 days</p>
+                                        </div>
+                                    </div>
+
+                                    
+                                </div>
+                                <div class="btn">
+                                    <button type="button">
+                                        View More
+                                    </button>
+                                </div>
+                            </img>
+                        </div>
+
+                        <div class="tops">
+                            <img src="./assets/images/card.png" alt="Card">
+                                <div class="text_top">
+                                <div class="name_doller_main">
+                                    <div class="name_doller_sub">
+                                        <p>Louis Creta Princess</p>
+
+                                    </div>
+
+                                    <div class="name_doller_sub1">
+                                    <p class='doller'>325$</p>
+
+                                    </div>
+                                </div>
+
+                                    <div class="rating">
+                                        <div class="rating_star">
+                                            <img src="./assets/images/4_star.png" alt="Rating">
+                                        </div>
+                                        <div class="rating_star1">
+                                            <p>10 days</p>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="btn">
+                                    <button type="button">
+                                        View More
+                                    </button>
+                                </div>
+                            </img>
+                        </div>
+                    </div>
+
+
+                    <div class="BottomTags clearfix">
+                        <div class="bottoms">
+                            <img src="./assets/images/card.png" alt="Card">
+                            <div class="text_bottom">
+                                <div class="name_doller_main">
+                                    <div class="name_doller_sub">
+                                        <p>El Greco</p>
+
+                                    </div>
+
+                                    <div class="name_doller_sub1">
+                                    <p class='doller'>225$</p>
+
+                                    </div>
+                                </div>
+
+                                    <div class="rating">
+                                        <div class="rating_star">
+                                            <img src="./assets/images/4_star.png" alt="Rating">
+                                        </div>
+                                        <div class="rating_star1">
+                                            <p> 10 days</p>
+                                        </div>
+                                    </div>
+                                   
+                            </div>
+                            <div class="btn">
+                                <button type="button">
+                                    View More
+                                </button>
+                            </div>
+                            
+                        </div>
+
+                        <div class="bottoms">
+                            <img src="./assets/images/card.png" alt="Card">
+                                <div class="text_bottom">
+                                <div class="name_doller_main">
+                                    <div class="name_doller_sub">
+                                        <p>Panorama</p>
+
+                                    </div>
+
+                                    <div class="name_doller_sub1">
+                                    <p class='doller'>125$</p>
+
+                                    </div>
+                                </div>
+                                    <div class="rating">
+                                        <div class="rating_star">
+                                            <img src="./assets/images/2_star.png" alt="Rating">
+                                        </div>
+                                        <div class="rating_star1">
+                                            <p> 10 days</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="btn">
+                                    <button type="button">
+                                        View More
+                                    </button>
+                                </div>
+                            </img>
+                        </div>
+
+                        <div class="bottoms">
+                            <img src="./assets/images/card.png" alt="Card">
+                                <div class="text_bottom">
+                                <div class="name_doller_main">
+                                    <div class="name_doller_sub">
+                                        <p>Cyprotel Corfu</p>
+
+                                    </div>
+
+                                    <div class="name_doller_sub1">
+                                    <p class='doller'>95$</p>
+                                        
+                                    </div>
+                                </div>
+
+                                    <div class="rating">
+                                        <div class="rating_star">
+                                            <img src="./assets/images/3_star.png" alt="Rating">
+                                        </div>
+                                        <div class="rating_star1">
+                                            <p> 10 days</p>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="btn">
+                                    <button type="button">
+                                        View More
+                                    </button>
+                                </div>
+                            </img>
+                        </div>
+
+                        <div class="bottoms">
+                            <img src="./assets/images/card.png" alt="Card">
+                                <div class="text_bottom">
+                                <div class="name_doller_main">
+                                    <div class="name_doller_sub">
+                                        <p>Louis Creta Princess</p>
+
+                                    </div>
+
+                                    <div class="name_doller_sub1">
+                                    <p class='doller'>325$</p>
+
+                                    </div>
+                                </div>
+
+                                    <div class="rating">
+                                        <div class="rating_star">
+                                            <img src="./assets/images/4_star.png" alt="Rating">
+                                        </div>
+                                        <div class="rating_star1">
+                                            <p>10 days</p>
+                                        </div>
+                                    </div>
+
+                                   
+                                </div>
+                                <div class="btn">
+                                    <button type="button">
+                                        View more
+                                    </button>
+                                </div>
+                            </img>
+
+                            
+                        </div>
+                      
+    
+                    </div>
+                  
+                    <div class="viewallo">
+                     <a href=""><p> View all offers</p></a>
+                    </div>
+                   
+                </div>
+               
+            </section>
+
+            
+           
+            <!-- Blog Section -->
+
+            <section class="blog">
+                <div class="container">
+                    <div class="img">
+                            <div class="head">
+                                    <!-- <h3>And then God said let there be a Greece</h3> -->
+                                    <img src="./assets/images/txt.png" alt="txt">
+                                <div class="lr_arrow">
+                                    <span class="leftArrow"><i class="fa fa-chevron-left fa-5x" aria-hidden="true"></i></span> 
+                                    <span class="rightArrow"><i class="fa fa-chevron-right fa-5x" aria-hidden="true"></i></span>
+                                </div>     
+                                <div class="subHead">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae voluptates ipsam nulla deleniti culpa, autem adipisci inventore reprehenderit laboriosam similique illum laborum asperiores delectus ratione itaque, cumque debitis, quae facere.</p>
+                                    <h5>John Doe, mytravels.com</h5>
+                                </div>
+                                <div class="dots">
+                                    <span class="dot_np"></span>
+                                    <span class="dot_np color"></span>
+                                    <span class="dot_np"></span>
+                                 </div>
+                            </div>
+                        </img>
+                    </div>
+                </div>
+            </section>
+    <!-- Footer Section -->
+
+            <footer class="footer">
+                <div class="footerImg">
+                    <img src="./assets/images/footer.png" alt="Footer">
+                </div>
+            </footer>
+
+    
+</body>
+</html>
